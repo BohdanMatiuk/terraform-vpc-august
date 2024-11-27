@@ -1,5 +1,5 @@
 variable region {
-    type = string
+  type = string
 }
 
 variable vpc_cidr {
@@ -7,17 +7,21 @@ variable vpc_cidr {
 }
 
 variable subnet1_cidr {
- type = string    
+  type = string    
 
 }
 variable subnet2_cidr {
- type = string    
+  type = string    
 }
 
 variable subnet3_cidr {
- type = string    
+  type = string    
 }
 
 variable  map_public_ip_on_launch {
     type = bool
+}
+
+variable port {
+  type = list    
 }
