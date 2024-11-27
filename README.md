@@ -1,5 +1,6 @@
 # terraform-vpc-august
 
+```hcl
 module "august" {
   source  = "BohdanMatiuk/august/vpc"
   version = "2.0.0"
@@ -9,3 +10,4 @@ module "august" {
   subnet2_cidr = "10.0.2.0/24"
   subnet3_cidr = "10.0.3.0/24"
 }
+```
